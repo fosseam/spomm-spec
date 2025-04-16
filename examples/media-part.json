@@ -1,0 +1,36 @@
+[
+  {
+    "url": "https://maps.app.goo.gl/odbvYePKScqoeYsY6",
+    "meta": {
+      "label": "High-Resolution Image",
+      "type": "highres",
+      "mime": "image/jpeg",
+      "exif": {
+        "Make": "DJI",
+        "Model": "Mavic Air 2",
+        "GPSLatitude": 53.6797,
+        "GPSLongitude": 6.9957,
+        "DateTimeOriginal": "2017:11:01 12:00:00"
+      },
+      "xmp": {
+        "title": "Juist Beach View",
+        "creator": "Jane Drone",
+        "rating": 4
+      },
+      "iptc": {
+        "keywords": ["beach", "north sea", "juist"],
+        "location": "Juist, Germany"
+      }
+    },
+    "usage": {
+      "license": "CC-BY-SA 4.0",
+      "contributor": "mp moving-pictures gmbh",
+      "embedding": "allowed"
+    },
+    "qa": {
+      "status": "active",
+      "added": "2025-03-21",
+      "checked": "2025-04-13"
+    }
+  }
+]

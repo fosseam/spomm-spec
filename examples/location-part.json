@@ -1,0 +1,33 @@
+{
+    "location": {
+      "geo": {
+        "continent": ["Europe", "Q46"],
+        "country": ["Germany", "Q183"],
+        "region": ["East Frisian Islands", "Q192612"],
+        "place": ["Juist", "Q318181"],
+        "tags": ["beach", "vacation", "island"]
+      },
+      "coordinates": {
+        "longi": 6.9957,
+        "lati": 53.6797,
+        "alti": {
+          "agl": 3.2,
+          "amsl": 7.5
+        }
+      },
+      "map": {
+        "osm": "https://www.openstreetmap.org/#map=12/53.6724/6.9957",
+        "osm_tags": [
+          "place=island",
+          "addr:district=Aurich",
+          "addr:state=Niedersachsen",
+          "addr:postcode=26571",
+          "addr:country=DE"
+        ],
+        "google": "",
+        "apple": "",
+        "ms": ""
+      }
+    }
+  }
+  

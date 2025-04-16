@@ -1,0 +1,112 @@
+{
+  "number": 1,
+  "slug": "juist-strandaufgang-3",
+  "spommid": "c0d802b4-7b8b-4c95-8a0e-27dc0c5d2c2e",
+  "base": {
+    "name": {
+      "en": "Juist – Beach Access 3",
+      "de": "Juist – Strandaufgang 3"
+    },
+    "description": {
+      "en": "View from the beach access path on the east side of Juist.",
+      "de": "Blick vom Strandaufgang auf der Ostseite von Juist."
+    },
+    "source": {
+      "origin": "google-sphere",
+      "id-desc": "panoid",
+      "id": "CIHM0ogKEICAgICElYfs4AE"
+    },
+    "theme": ["nature", "beach", "vacation"],
+    "added": "2025-03-23",
+    "modified": "2025-04-13"
+  },
+  "location": {
+    "geo": {
+      "continent": ["Europe", "Q46"],
+      "country": ["Germany", "Q183"],
+      "region": ["East Frisian Islands", "Q192612"],
+      "place": ["Juist", "Q318181"],
+      "tags": ["beach", "vacation", "kite flying"]
+    },
+    "coordinates": {
+      "longi": 6.9957,
+      "lati": 53.6797,
+      "alti": {
+        "agl": 3.2,
+        "amsl": 7.5
+      }
+    },
+    "map": {
+      "osm": "https://www.openstreetmap.org/#map=12/53.6724/6.9957",
+      "osm_tags": [
+        "place=island",
+        "addr:district=Aurich",
+        "addr:state=Niedersachsen",
+        "addr:postcode=26571",
+        "addr:country=DE"
+      ],
+      "google": "",
+      "apple": "",
+      "ms": ""
+    }
+  },
+  "media": [
+    {
+      "url": "https://maps.app.goo.gl/odbvYePKScqoeYsY6",
+      "meta": {
+        "label": "High-Resolution Image",
+        "type": "highres",
+        "mime": "image/jpeg",
+        "exif": {
+          "Make": "DJI",
+          "Model": "Mavic Air 2",
+          "GPSLatitude": 53.6797,
+          "GPSLongitude": 6.9957,
+          "DateTimeOriginal": "2017:11:01 12:00:00"
+        },
+        "xmp": {
+          "title": "Juist Beach View",
+          "creator": "Jane Drone",
+          "rating": 4
+        },
+        "iptc": {
+          "keywords": ["beach", "north sea", "juist"],
+          "location": "Juist, Germany"
+        }
+      },
+      "usage": {
+        "license": "CC-BY-SA 4.0",
+        "contributor": "mp moving-pictures gmbh",
+        "embedding": "allowed"
+      },
+      "qa": {
+        "status": "active",
+        "added": "2025-03-21",
+        "checked": "2025-04-13"
+      }
+    }
+  ],
+  "camera": {
+    "view": {
+      "angle": 75,
+      "resolution": "8192x4096",
+      "projection": "equirectangular"
+    },
+    "ptz": {
+      "pan": false,
+      "tilt": false,
+      "zoom": false
+    },
+    "type": "photo",
+    "indoor": false,
+    "audio": false,
+    "interval": "n/a",
+    "timelapse": false,
+    "heading": {
+      "direction": "NE",
+      "pitch": 17.9,
+      "yaw": 47.7,
+      "roll": 0.0
+    }
+  }
+}

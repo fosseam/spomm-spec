@@ -1,0 +1,27 @@
+{
+  "number": 1,
+  "slug": "juist-strandaufgang-3",
+  "spommid": "c0d802b4-7b8b-4c95-8a0e-27dc0c5d2c2e",
+  "base": {
+    "name": {
+      "en": "Juist – Beach Access 3",
+      "de": "Juist – Strandaufgang 3"
+    },
+    "description": {
+      "en": "View from the beach access path on the east side of Juist.",
+      "de": "Blick vom Strandaufgang auf der Ostseite von Juist."
+    },
+    "source": {
+      "origin": "google-sphere",
+      "id-desc": "panoid",
+      "id": "CIHM0ogKEICAgICElYfs4AE"
+    },
+    "theme": [
+      "nature",
+      "beach",
+      "vacation"
+    ],
+    "added": "2025-03-23",
+    "modified": "2025-04-13"
+  }
+}

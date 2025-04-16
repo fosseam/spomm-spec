@@ -1,10 +1,10 @@
-# SPOMM – Spherical Object Meta Model
+# SpOMM – Spherical Object Meta Model
 
-**SPOMM** (Spherical Object Meta Model) is an experimental metadata model designed to describe spatially or logically coherent units – so-called “spheres”. It serves as a generic and structured format to represent objects, places, media, concepts, or processes in a consistent way.
+**SpOMM** (Spherical Object Meta Model) is an experimental metadata model designed to describe spatially or logically coherent units – so-called “spheres”. It serves as a generic and structured format to represent objects, places, media, concepts, or processes in a consistent way.
 
 ## Purpose and Motivation
 
-SPOMM was developed to:
+SpOMM was developed to:
 - enable structured metadata for heterogeneous objects in a unified model
 - represent both physical and virtual “spheres” (e.g. geospatial data, conceptual entities, media artifacts)
 - support reusability, interoperability, and machine-readability across domains

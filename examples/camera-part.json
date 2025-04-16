@@ -1,0 +1,25 @@
+{
+  "camera": {
+    "view": {
+      "angle": 75,
+      "resolution": "8192x4096",
+      "projection": "equirectangular"
+    },
+    "ptz": {
+      "pan": false,
+      "tilt": false,
+      "zoom": false
+    },
+    "type": "photo",
+    "indoor": false,
+    "audio": false,
+    "interval": "n/a",
+    "timelapse": false,
+    "heading": {
+      "direction": "NE",
+      "pitch": 17.9,
+      "yaw": 47.7,
+      "roll": 0.0
+    }
+  }
+}

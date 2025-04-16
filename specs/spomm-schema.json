@@ -1,0 +1,159 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/spomm.schema.json",
+  "title": "SpOMM - Sphere Object Meta Model",
+  "type": "object",
+  "required": ["number", "slug", "spommid", "base", "location", "media", "camera"],
+  "properties": {
+    "number": { "type": "integer", "minimum": 1 },
+    "slug": { "type": "string" },
+    "spommid": { "type": "string", "format": "uuid" },
+    "base": {
+      "type": "object",
+      "required": ["name", "description", "source", "theme", "added"],
+      "properties": {
+        "name": {
+          "type": "object",
+          "properties": {
+            "en": { "type": "string" },
+            "de": { "type": "string" }
+          },
+          "additionalProperties": { "type": "string" }
+        },
+        "description": {
+          "type": "object",
+          "properties": {
+            "en": { "type": "string" },
+            "de": { "type": "string" }
+          },
+          "additionalProperties": { "type": "string" }
+        },
+        "source": {
+          "type": "object",
+          "required": ["origin", "id-desc", "id"],
+          "properties": {
+            "origin": { "type": "string" },
+            "id-desc": { "type": "string" },
+            "id": { "type": "string" }
+          }
+        },
+        "theme": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "added": { "type": "string", "format": "date" },
+        "modified": { "type": "string", "format": "date" }
+      }
+    },
+    "location": {
+      "type": "object",
+      "properties": {
+        "geo": {
+          "type": "object",
+          "properties": {
+            "continent": { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+            "country":   { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+            "region":    { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+            "place":     { "type": "array", "items": { "type": "string" }, "minItems": 2, "maxItems": 2 },
+            "tags":      { "type": "array", "items": { "type": "string" } }
+          }
+        },
+        "coordinates": {
+          "type": "object",
+          "properties": {
+            "longi": { "type": "number" },
+            "lati": { "type": "number" },
+            "alti": {
+              "type": "object",
+              "properties": {
+                "agl": { "type": "number" },
+                "amsl": { "type": "number" }
+              }
+            }
+          }
+        },
+        "map": {
+          "type": "object",
+          "properties": {
+            "osm": { "type": "string" },
+            "osm_tags": { "type": "array", "items": { "type": "string" } },
+            "google": { "type": "string" },
+            "apple": { "type": "string" },
+            "ms": { "type": "string" }
+          }
+        }
+      }
+    },
+    "media": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "url": { "type": "string", "format": "uri" },
+          "meta": {
+            "type": "object",
+            "properties": {
+              "label": { "type": "string" },
+              "type": { "type": "string" },
+              "mime": { "type": "string" },
+              "exif": { "type": "object" },
+              "xmp": { "type": "object" },
+              "iptc": { "type": "object" }
+            }
+          },
+          "usage": {
+            "type": "object",
+            "properties": {
+              "license": { "type": "string" },
+              "contributor": { "type": "string" },
+              "embedding": { "type": "string" }
+            }
+          },
+          "qa": {
+            "type": "object",
+            "properties": {
+              "status": { "type": "string" },
+              "added": { "type": "string", "format": "date" },
+              "checked": { "type": "string", "format": "date" }
+            }
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "properties": {
+        "view": {
+          "type": "object",
+          "properties": {
+            "angle": { "type": "number" },
+            "resolution": { "type": "string" },
+            "projection": { "type": "string" }
+          }
+        },
+        "ptz": {
+          "type": "object",
+          "properties": {
+            "pan": { "type": "boolean" },
+            "tilt": { "type": "boolean" },
+            "zoom": { "type": "boolean" }
+          }
+        },
+        "type": { "type": "string" },
+        "indoor": { "type": "boolean" },
+        "audio": { "type": "boolean" },
+        "interval": { "type": "string" },
+        "timelapse": { "type": "boolean" },
+        "heading": {
+          "type": "object",
+          "properties": {
+            "direction": { "type": "string" },
+            "pitch": { "type": "number" },
+            "yaw": { "type": "number" },
+            "roll": { "type": "number" }
+          }
+        }
+      }
+    }
+  }
+}
